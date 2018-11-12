@@ -1,4 +1,4 @@
 #!/usr/bin/env groovy
 node {
-    println 'Hello, Jenkins!'
+    println 'Hello, Jenkins, hock not work!'
 }
