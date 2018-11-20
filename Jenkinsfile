@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
 pipeline {
-    agent none
+    agent { label 'dev-mobstra' }
     stages { 
         stage('Example') {
             steps {
